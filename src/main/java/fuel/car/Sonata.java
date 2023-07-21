@@ -1,6 +1,6 @@
 package fuel.car;
 
-public class Sonata extends Car {
+public class Sonata implements Car {
     private final int distance;
 
     private final int PER_LITER = 10;

@@ -1,6 +1,6 @@
 package fuel.car;
 
-public class K5 extends Car {
+public class K5 implements Car {
 
     private final int distance;
 
