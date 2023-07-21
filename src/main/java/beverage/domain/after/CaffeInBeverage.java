@@ -1,4 +1,4 @@
-package domain.after;
+package beverage.domain.after;
 
 public class CaffeInBeverage {
     protected void boilWater() {

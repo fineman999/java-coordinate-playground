@@ -1,9 +1,9 @@
 package domain.afterabstract;
 
+import beverage.domain.afterabstract.CaffeInBeverage;
+import beverage.domain.afterabstract.Coffee;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CaffeInBeverageTest {
 

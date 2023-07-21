@@ -1,4 +1,4 @@
-package domain.afterabstract;
+package beverage.domain.afterabstract;
 
 public abstract class CaffeInBeverage {
     abstract void brew();

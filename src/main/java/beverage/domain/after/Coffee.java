@@ -1,6 +1,6 @@
-package domain.before;
+package beverage.domain.after;
 
-public class Coffee {
+public class Coffee extends CaffeInBeverage {
     void prepareRecipe() {
         boilWater();
         brewCoffeeGrinds();
@@ -12,16 +12,7 @@ public class Coffee {
         System.out.println("설탕과 우유를 추가한다.");
     }
 
-    private void pourInCup() {
-        System.out.println("컵에 따른다.");
-    }
-
     private void brewCoffeeGrinds() {
         System.out.println("필터를 통해서 커피를 우려낸다.");
     }
-
-    private void boilWater() {
-        System.out.println("물을 끓인다.");
-    }
-
 }
